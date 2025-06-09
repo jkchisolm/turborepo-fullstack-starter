@@ -1,6 +1,8 @@
-# shadcn/ui monorepo template
+# Fullstack Turborepo Template (Nest.JS + Next.JS + ShadCN + Prisma)
 
-This template is for creating a monorepo with shadcn/ui.
+This is a template for creating a full-stack application within a Turborepo. It contains a Nest.JS API and a Next.JS frontend, with Shadcn + Tailwind V4 for styling, Prisma for database interaction, and Better-Auth for authentication.
+
+Credit to shadcn for the initial Shadcn + Next.JS monorepo template, which this extends from.
 
 ## Usage
 
@@ -27,5 +29,5 @@ Your `tailwind.config.ts` and `globals.css` are already set up to use the compon
 To use the components in your app, import them from the `ui` package.
 
 ```tsx
-import { Button } from "@workspace/ui/components/button"
+import { Button } from "@workspace/ui/components/button";
 ```
